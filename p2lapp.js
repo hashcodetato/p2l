@@ -1,7 +1,5 @@
-const canvas = document.querySelector("canvas");
+const button = document.createElement("button");
+button.innerText = "hello";
 
-ctx = canvas.getContext("2d");
-
-ctx.moveTo(0, 0);
-ctx.lineTo(200, 100);
-ctx.stroke();
+const container = document.querySelector("#container333");
+container.appendChild(button);
